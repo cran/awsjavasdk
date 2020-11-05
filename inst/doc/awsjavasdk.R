@@ -1,4 +1,4 @@
-## ---- echo = FALSE, results='asis'---------------------------------------
+## ---- echo = FALSE, results='asis'--------------------------------------------
 # Include badges only when making the github markdown
 library(knitr)
 if ("github_markdown" %in% knitr::opts_knit$get("rmarkdown.pandoc.to")) {
@@ -10,7 +10,7 @@ if ("github_markdown" %in% knitr::opts_knit$get("rmarkdown.pandoc.to")) {
 ")
 }
 
-## ---- echo = FALSE, results = 'hide', message = FALSE--------------------
+## ---- echo = FALSE, results = 'hide', message = FALSE-------------------------
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
